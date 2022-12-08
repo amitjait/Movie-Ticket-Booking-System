@@ -13,3 +13,28 @@ This is Clone of Book My Show BackEnd.
   - GetMovieByID -> /movie/get/{id}
 
 - Show Controller
+  - AddShow -> /show/add
+  - {
+      "movieResponseDto": {
+        "id": 0,
+        "name": "string",
+        "releaseDate": "string",
+        "showDtoList": [
+          null
+        ]
+      },
+      "showDate": "string",
+      "showTime": {
+        "hour": 0,
+        "minute": 0,
+        "nano": 0,
+        "second": 0
+      },
+      "theaterResponseDto": {
+        "address": "string",
+        "city": "string",
+        "id": 0,
+        "name": "string",
+        "theaterType": "SINGLE"
+      }
+    }
