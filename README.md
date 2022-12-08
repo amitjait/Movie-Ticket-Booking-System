@@ -38,3 +38,36 @@ This is Clone of Book My Show BackEnd.
         "theaterType": "SINGLE"
       }
     }
+  - DeleteShowByID -> /show/delete/{id}
+  - GetShowBYID -> /show/get/{id}
+
+- Theater Controller
+  - AddTheater -> /theater/add
+  - {
+      "address": "string",
+      "city": "string",
+      "name": "string"
+    } 
+  - GetTeaterBYID -> /theater/get/{id}
+
+- Ticket Controller
+  - Add Ticekt -> /ticket/add
+  - {
+      "requestedSeats": [
+        "string"
+      ],
+      "seatType": "CLASSIC",
+      "showId": 0,
+      "userId": 0
+    }
+  - GetTicektBYID -> /ticekt/get/{id}
+
+- User Controller
+  - AddUser -> /user/add
+  - {
+      "mobNo": "string",
+      "name": "string"
+    }
+  - GetUserByID -> /user/get/{id}
+
+
