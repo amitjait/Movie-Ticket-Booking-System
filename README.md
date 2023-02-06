@@ -1,5 +1,4 @@
-# BookMyShow
-This is Clone of Book My Show BackEnd.
+# Ticket Booking System
 
 <b>There are following 5 Controllers </b>
 
