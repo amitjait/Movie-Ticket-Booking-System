@@ -1,9 +1,9 @@
 # Ticket Booking System
 
-•	This Spring boot backend application allows you to book tickets, find shows, search movies and movies and has 10-12 API.
-•	Framework used: Spring boot, PA Hibernate (MYSQL DB), Maven, Postman.
-•	Learnings: Learnt about Spring, hibernate, different layers of API, MySql and connection DB.
-•	User can book tickets for multiple sheets 
+-	This Spring boot backend application allows you to book tickets, find shows, search movies and movies and has 10-12 API.
+-	Framework used: Spring boot, PA Hibernate (MYSQL DB), Maven, Postman.
+-	Learnings: Learnt about Spring, hibernate, different layers of API, MySql and connection DB.
+-	User can book tickets for multiple sheets 
 
 
 <b>There are following 5 Controllers </b>
